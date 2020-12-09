@@ -2,7 +2,7 @@
 
 Focus: The focus of the AIO is to represent research and the results of research in a manner that is useful for scientists. It is a link between scientific knowledge gained through experimentation and the distribution/dissemination of that knowledge. The ontology development team's goal is to report areas that are in need of development in the ontology and to implement those changes in a predictable and consistent manner. The development team adheres, as much is as possible, to the standards of best practices in ontology development as outlined by the OBO Foundry (obofoundry.org). The team members are also responsible for reviewing changes in the ontology to be sure that they accurately reflect the best current understandings of brain science. The team works in conjunction with a team of software developers to ensure that the ontology and its applications are consistent and up-to-date.
 
-Editing the Ontology
+## Editing the Ontology
 
 For editing AIO, it is recommended that you use Protege. As of August 2020, the development team uses Protege 5.5.0. To download Protege, visit [protege.stanford.edu]. Then unzip and move the app to your [applications] folder. Follow the instructions when prompted. 
 
@@ -42,7 +42,7 @@ When you change the ontology, you can view the changes by typing [git diff] in t
 
 You can also track changes in the ontology using tools. If you are using Protege, you can use the [ontology differences] tab. You can also use Bubastis and their online and downloadable tools for locating differences between ontologies and versions of ontologies. 
 
-Publishing ontologies:
+## Publishing ontologies:
 
 First, there needs to be a release version of the ontology. (we can use OWLTools and OORT, or ROBOT). The general principles are that: 
 
