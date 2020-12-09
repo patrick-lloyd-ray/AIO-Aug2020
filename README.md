@@ -106,12 +106,9 @@ You can also track changes in the ontology using tools. If you are using Protege
 
 First, there needs to be a release version of the ontology. (we can use OWLTools and OORT, or ROBOT). The general principles are that: 
 
-Ontology developers edit a source version of the ontology -- this is often called something like [foo-edit.owl].  
-
-This source version is compiled down to make the release versions [foo.owl]. Note that the name is always the same as the ontology ID space, all in lowercase. 
-
-The release version includes links inferred by a reasoner and asserted in the ontology.
-
-The release version should always have an [owl:versionIRI] tag based on the date (YYYY-MM-DD format). 
+1. Ontology developers edit a source version of the ontology -- this is often called something like [foo-edit.owl].  
+2. This source version is compiled down to make the release versions [foo.owl]. Note that the name is always the same as the ontology ID space, all in lowercase. 
+3. The release version includes links inferred by a reasoner and asserted in the ontology.
+4. The release version should always have an [owl:versionIRI] tag based on the date (YYYY-MM-DD format). 
 
 After the release version is prepared there are different methods for publishing this. A common method is to publish directly on github by committing the release file. Some groups also use the github release mechanism. 
