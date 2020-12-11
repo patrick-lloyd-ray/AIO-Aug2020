@@ -26,8 +26,14 @@ Electrophysiological Ontology (In development with Tom G.)
 
 Transcriptomic Ontology (TBD)
 
-Spatial Ontology (NWB)
+Spatial Ontology (NWB), including projections.
 
 Extension of Gene Ontology (TBD)
 
-## 
+## Other Work To-Do [draft]
+
+Mapping Allen brain regions to Uberon
+
+Functional properties of neurons needed (other than neurotransmitter, inhibitory, excitatory, etc.)
+
+
