@@ -36,4 +36,4 @@ Mapping Allen brain regions to Uberon
 
 Functional properties of neurons needed (other than neurotransmitter, inhibitory, excitatory, etc.)
 
-
+Techniques and methodologies to link data
