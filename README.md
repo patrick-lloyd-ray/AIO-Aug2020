@@ -1,8 +1,8 @@
-# Allen Institute Ontology: Fall 2020 Release
+# Allen Institute Ontology
 
 Focus: The focus of the AIO is to represent research and the results of research in a manner that is useful for scientists. It is a link between scientific knowledge gained through experimentation and the distribution/dissemination of that knowledge. The ontology development team's goal is to report areas that are in need of development in the ontology and to implement those changes in a predictable and consistent manner. The development team adheres, as much is as possible, to the standards of best practices in ontology development as outlined by the OBO Foundry (obofoundry.org). The team members are also responsible for reviewing changes in the ontology to be sure that they accurately reflect the best current understandings of brain science. The team works in conjunction with a team of software developers to ensure that the ontology and its applications are consistent and up-to-date.
 
-# Trackers
+# Trackers [draft]
 
 ## For trackers, each ticket must have the following information:
 
@@ -12,7 +12,7 @@ Focus: The focus of the AIO is to represent research and the results of research
 4. category, milestone, priority (used mainly for sorting)
 5. discussion thread (text with information pertinent to the issue)
 
-## To request an ontology term:
+# Requesting an AIO Term [draft]
 
 First, check whether the term you would like occurs in an ontology already (use OntoBee or BioPortal). You should also check for synonyms of the term you would like. To request a new term, click [trackers] on the right hand side of the GitHub page for AIO, and then send a new term request to the issue tracker of AIO. When submitting your request for a new term, please follow the guidelines at the end of this section.
 
@@ -28,7 +28,7 @@ No More than One Name: IRIs allow us to assign as many names as we would like, b
 
 Speaking of names, it is good practice to reuse ontology terms when possible. IRIs provide us with all of the globally unique names that we need. Ontologies then give us systems of standardized names (and a bunch of other things). "Using" an OBO reference ontology term simply means using its IRI in your data. Every term needs to have one (and only one) IRI. 
 
-## Term Requests for existing terms:
+## Existing Terms
 
 If you find a term in OntoBee or BioPortal that you would like in AIO, simply ask for an import of that term in the next version release of the ontology. If you find a term that is close but may need some additions or changes, submit a new ticket to the issue tracker and include:
 
@@ -36,7 +36,7 @@ If you find a term in OntoBee or BioPortal that you would like in AIO, simply as
 2. the IRI that identifies the term [http://purl.obolibrary.org/obo/OBI_0000008]
 3. a description of the changes you would like and the reasons for the change.
 
-## Term requests for new terms:
+## New Terms
 
 If you cannot find the term you would like using the above search parameters, you should request a new term. AIO developers would like the following information when possible:
 
@@ -48,51 +48,33 @@ If you cannot find the term you would like using the above search parameters, yo
 6. example of usage. One or more example of usage annotations can clarify the meaning of a term. While the textual definition must be general enough to cover all cases, the examples provide specific cases that show the term in use. Examples of usage can be common cases that demonstrate the prototypical usage, or uncommon edge cases that delimit the scope of the term. While not strictly required, every new term should have one or more examples of usage.
 7. term editor -- your name and that of any collaborators (as it will appear in the ontology). We want to give you credit for your work. We will add one or more term editor annotations with your name, and the names of others who have collaborated on creating the term. 
 
-## Term relationships
+## Term Relationships
 
-### Parents:
+### Parents
 Every term in the ontology must have at least one (is_a) parent and can have as many relationships to other terms as necessary.
 
-### Equivalence axioms:
+### Equivalence Axioms
 Equivalence axioms represent a special set of relationships that define a term with both necessary and sufficient conditions. For example the equivalence axiom for GO:0055085 transmembrane transport is transport and ('results in transport across' some membrane). This means that if a process is transmembrane transport, it result in transport across a membrane (necessary condition). It also means that any process that transports across a membrane is_a transmembrane transport (sufficient). Whenever possible, equivalence axioms should be created for every term.
 
-### Disjoint axioms:
+### Disjoint Axioms
 Terms are made disjoint when they have no children in common. Disjoint relationships can be very useful in that they can be used to identify inconsistencies in the ontology. For example, GO:0003690 double-stranded DNA binding is disjoint with GO:0003697 single-stranded DNA binding.
 
-### Importance of reasoning:
+### Reasoning
 Reasoning is critical to the keeping the AIO maintainable. Any term in AIO may have many parents. In an ontology that is large and complex, maintaining classifications of this type by hand in is very error-prone as placing a class correctly in the hierarchy requires editors to know what parents are available. It is much more sustainable to record just one asserted classification along with a set of conditions for class membership and then to rely on automated classification for the rest.
 
-## Editing the Ontology
+# Editing the Ontology
 
-For editing AIO, it is recommended that you use Protege. As of August 2020, the development team uses Protege 5.5.0. To download Protege, visit [protege.stanford.edu]. Then unzip and move the app to your [applications] folder. Follow the instructions when prompted. 
-
-Protege requires a fair bit of memory for larger ontology files. To increase your memory, open [/Applications/Protege-5.5.0/Protege.app/Contents/info.plist] and below the line [<string>-Xss16M</string>] insert [<string>-Xmx12G</string>]. 
-
-If you would like to adde a view as a window or a tab, then go to 'Windows' > 'View' > select the view you would like to insert. If you would like to add a view as a new window, then mouse over the window you would like to add a new window to (until you see a blue rectangle), then click to drop the window where you would like. If you would like to add a view as a new tab, then mouse over the middle area of the window you would like to add a new tab to, then click to drop the window there. 
-
-To work on AIO, there are a few tabs that you will need: [Active Ontology], [Entities], [DL Query], and [Annotations]. Once you have Protege laid out to your preferences, then [Windows] > [Store Current Layout].
-
-Sometimes Protege will ask you to install plugins or some plugins may not be available from the [Window] > [Views] tab. If the latter occurs, go to [File] > [Check for plugins]. The plugin menu will appear and display the various available plugins or newer versions of old plugins. NB: the box [Always check for updates on startup] is recommended to be 'off' because this will considerably slow Protege.
+For editing AIO, it is recommended that you use Protege. As of December 2020, the development team uses Protege 5.5.0. To download Protege, visit [protege.stanford.edu]. Then unzip and move the app to your [applications] folder. Follow the instructions when prompted. 
 
 The ELK OWL reasoner is used to infer relationships and annotations derived from logical principles. If you do not have ELK installed, then use the [Check for plugins] menu to do so. 
 
 There are also other plugins that are handy for AIO and can be installed from the Protege menu. Also recommended is the [OntoGraph View], which displays a connected graph of classification (is_a) and other relationships. Both children and parents can be viewed in OntoGraph and many (in some cases all) relations are displayed. 
 
-To set the username and auto-adding creation data, take the following steps. 1. In the Protege Menu, go to [Preferences] > [New Entities Metadata] tab. 2. Check [Annotate new entities with creator (user)] 3. For [Creator property] enter 'http://alleninstituteontology.org/#created_by' 4. Toggle on the [Use user name] switch under [Creator value] 5. Check [Annotate new entities with creation date/time] 6. For [Date property] enter 'http://alleninstituteontology.org/#creation_date'. 7. Under [Date value format] select [ISO-8601].
-
-To configure your user details, go to the Protege menu and select [Preferences] > [User details]. For [User name] select [Use supplied user name] and use your AIO id. 
-
-To set the rendering, in the Protege menu, go to [Preferences] > [Renderer]. This allows you to set the annotation property you can use for rendering OWL entities (classes, object properties, annotation properties, individuals) in graphs, trees, and text. This should be set to [rdfs:label]. Note that all entities in OWL are identified by an IRI. Entities also include annotation properties such as human-readable labels. Choosing to render with [rdfs:label] displays term labels in Protege.
-
 To edit the ontology locally and push changes to github (see below), you will need git installed. Make sure that you have git installed before you check out AIO from github. 
-
-First, you will need to clone the AIO repository from github. 1. Create a directory called 'repos' on your local machine using the command: mkdir repos. 2. Paste this command into your terminal: git clone (example) https://github.com/alleninstituteontology/aio-ontology.git
-
-Git also should keep a record of who is committing changes to the repository, so you will see some message with your name and email address configured automatically based on your username and hostname. You may set your name and email explicitly. 
 
 An essential feature of ontologies (and OBO principle) is that they must be maintained and updated regularly. This document outlines the method and steps for ensuring consistent updates and maintenance for the Allen Institute Ontology (AIO).
 
-The ontology will be housed on github in the form of an OWL file. In order to work on the ontology, create a new working branch using 'git checkout'. When working on the AIO it is imperative that you create a new branch of the repository to edit the ontology. You should not work on the master branch of the ontology. Once you are on the master branch, you can create a new branch. If your terminal is not configured to display the branch name, type [git status] to check which branch is active. If you need to move to the master, type [git checkout master]. To create a new branch, type [git checkout -b branch_name] in the terminal. To name your new branch, follow this convention: use string 'issue-' then type the issue number. For example, if you have an issue in the tracker with the following URL (https://github.com/alleninstituteontology/aio-ontology/issues/3453) you would create a branch [git checkout -b issue-3453]. If you type this command, you will automatically be in a new branch.
+The ontology will be housed on github in the form of an OWL file. In order to work on the ontology, create a new working branch using 'git checkout'. When working on the AIO it is imperative that you create a new branch of the repository to edit the ontology. You should not work on the master branch of the ontology. Once you are on the master branch, you can create a new branch. To create a new branch, type [git checkout -b branch_name] in the terminal. To name your new branch, follow this convention: use string 'issue-' then type the issue number. For example, if you have an issue in the tracker with the following URL (https://github.com/alleninstituteontology/aio-ontology/issues/3453) you would create a branch [git checkout -b issue-3453]. If you type this command, you will automatically be in a new branch.
 
 Ontology editing should be done in Protege or some other ontology-editing application. Before you launch Protege, make sure that you are in the correct branch. If you need to check the active branch, type [git status]. To open the aio-edit.owl file, click on the 'file' pulldown in Protege. You will then navigate to the URL of the AIO owl file or load the file directly (from download). If you have recently worked on the file, it should appear in 'Open/Recent'. 
 
@@ -102,7 +84,7 @@ When you change the ontology, you can view the changes by typing [git diff] in t
 
 You can also track changes in the ontology using tools. If you are using Protege, you can use the [ontology differences] tab. You can also use Bubastis and their online and downloadable tools for locating differences between ontologies and versions of ontologies. 
 
-## Publishing ontologies:
+## Publishing Ontologies
 
 First, there needs to be a release version of the ontology. (we can use OWLTools and OORT, or ROBOT). The general principles are that: 
 
