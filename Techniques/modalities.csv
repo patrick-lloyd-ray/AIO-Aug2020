@@ -1,4 +1,6 @@
-Term, type
+Term, parent class
+anatomy, modality
+behavioral, modality
 expression, modality
 genomics, modality
 cell culture, modality
@@ -12,13 +14,11 @@ radiology, modality
 microscopy, modality
 physiology, modality
 multimodal, modality
-anatomy, modality
 optical, modality
 cell counting, modality
 connectivity, modality
 spatial transcriptomics, modality
 expression characterization, modality
 epigenomics, modality
-behavioral, modality
 models, modality
 population imgaging, modality
