@@ -24,7 +24,7 @@ behavior,PupilTracking,behavioral technique,behavioral approach
 behavior,EyeTracking,behavioral technique,behavioral approach
 behavior,CompassDirection,behavioral technique,behavioral approach
 base,ProcessingModule,analytical technique,	
-image,RGBImage,photographic technique,,
+image,RGBImage,photographic technique,
 misc,DecompositionSeries,fourier analysis technique,	
 misc,Units,spike sorting technique,electrophysiology
 ndx-spectrum,Spectrum,fourier analysis technique,	
