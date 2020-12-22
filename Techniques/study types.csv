@@ -19,5 +19,5 @@ multimodal,	Study that employs multiple modalities in signifcant ways
 optical,	Study that makes measurements using photons in the visible spectrum.
 physiology,	Study that measures the function or behavior of organs and tissues in living systems.
 radiology,	Study that uses at least one of a varity of minimally invasive probes such as x-rays; ultrasound; or nuclear magnetic resonance signals to capture data about the internal structure of intact subjects.
-spatial transcriptomics,	Study used to spatially resolve RNA-seq data, and thereby all mRNAs; in individual tissue sections (Wikipedia).
+spatial transcriptomics,	Study used to spatially resolve RNA-seq data (and thereby all mRNAs)in individual tissue sections (Wikipedia).
 transcriptomics,	Study that measures RNA transcription in the organism or cell population of interest
