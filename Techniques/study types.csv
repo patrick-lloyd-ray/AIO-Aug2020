@@ -1,0 +1,23 @@
+# name,	Definition
+anatomy,	Study that aims to understand the structure of organisms or their parts. 
+behavioral,	Study that induces and/or measures the behavior of the subject
+cell counting,	Study that is designed to quantify cell populations
+cell culture,	Study that employs cells isolated from the organism or tissue that are kept alive and studied in vitro
+cell morphology,	Study that specifically seeks to understand the shape and structure of individual cells
+cell population characterization,	Study that measures biochemical; molecular and/or physiological characteristics of populations of cells as opposed to individual cells
+connectivity,	Study that maps or measures functional and/or anatomical connections between nerve cells and their targets or connections between populations of neurons in defined anatomical regions.
+electrophysiology,	Study that measures electrical impulses within an organism; cell or tissue or the effects of direct electrical stimulation
+epigenomics,	Study that measures modifications of genetic material that affect transcription but do not alter the organism's DNA
+expression,	Study that measures or visualizes gene or protein expression within cells or tissues. Focuses on the gene.
+expression characterization,	Study that charachterizes the cellular; anatomical; or morphological distribution of gene expression. Focuses on population.
+genomics,	Study that measures aspects related to the complete DNA genemone of an organsim
+histology,	Study that investigates the microscopic structure of tissues
+microscopy,	Study that primarily uses light or electron microscopic imaging
+models,	Study that creates or charachterizes computational models or simulations of other experimentally observed phenomena
+morphology,	Study designed to determine the shape and structure of tissues and body parts
+multimodal,	Study that employs multiple modalities in signifcant ways
+optical,	Study that makes measurements using photons in the visible spectrum.
+physiology,	Study that measures the function or behavior of organs and tissues in living systems.
+radiology,	Study that uses at least one of a varity of minimally invasive probes such as x-rays; ultrasound; or nuclear magnetic resonance signals to capture data about the internal structure of intact subjects.
+spatial transcriptomics,	Study used to spatially resolve RNA-seq data, and thereby all mRNAs; in individual tissue sections (Wikipedia).
+transcriptomics,	Study that measures RNA transcription in the organism or cell population of interest
