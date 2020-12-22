@@ -1,24 +1,24 @@
 Term, parent class
-anatomy, modality
-behavioral, modality
-expression, modality
-genomics, modality
-cell culture, modality
-histology, modality
-morphology, modality
-cell morphology, modality
-transcriptomics, modality
-electrophysiology, modality
-cell population characterization, modality
-radiology, modality
-microscopy, modality
-physiology, modality
-multimodal, modality
-optical, modality
-cell counting, modality
-connectivity, modality
-spatial transcriptomics, modality
-expression characterization, modality
-epigenomics, modality
-models, modality
-population imgaging, modality
+anatomy, modality (assay)
+behavioral, modality (assay)
+expression, modality (assay)
+genomics, modality (assay)
+cell culture, modality (assay)
+histology, modality (assay)
+morphology, modality (assay)
+cell morphology, modality (assay)
+transcriptomics, modality (assay)
+electrophysiology, modality (assay)
+cell population characterization, modality (assay)
+radiology, modality (assay)
+microscopy, modality (assay)
+physiology, modality (assay)
+multimodal, modality (assay)
+optical, modality (assay)
+cell counting, modality (assay)
+connectivity, modality (assay)
+spatial transcriptomics, modality (assay)
+expression characterization, modality (assay)
+epigenomics, modality (assay)
+models, modality (assay)
+population imgaging, modality (assay)
