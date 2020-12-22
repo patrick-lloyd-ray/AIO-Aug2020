@@ -1,5 +1,23 @@
 # Terms of Interest
 
+## Technique
+
+scientific technique, methodology, (could be investigation assay specification: A plan specification which indicates the assay type used to obtain data)
+
+Def: A particular way of carrying out an experiment, procedure, or task. (proposed)
+
+Examples: 
+
+subclass of: assay
+
+## Modality
+
+Def: Those aspects of a thing that relate to its manner or state of being (distinct from its substance or identity). Alt: a method or technique used in the treatment of a specific sample. 
+
+Examples:
+
+subclass of: 
+
 ## Protocol
 
 protocol, study protocol
