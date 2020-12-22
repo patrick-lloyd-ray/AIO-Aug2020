@@ -1,0 +1,42 @@
+Technique, Term, plan specification, planned process
+cre-dependent anterograde tracing,,cre-dependent anterograde tracing study design, cre-dependent anterograde tracing assay
+anterograde tracing,,anterograde study design, anterograde tracing assay
+histology,histological assay (OBI:0600020),,histological assay (OBI:0600020)
+in situ hybridization,in-situ hybridization assay (OBI:0001686),,in-situ hybridization assay (OBI:0001686)
+microarray,microarray assay (OBI:0001985),,microarray assay (OBI:0001985)
+RNA seq,RNA-seq assay (OBI:0001926),RNA-seq study design,RNA-seq assay (OBI:0001926)
+whole cell patch clamp,whole-cell patch clamp assay (OBI:0002178),,whole-cell patch clamp assay (OBI:0002178)
+neuron morphology reconstruction,3D structure determination assay (OBI:0600045),,3D neuron structure morphology assay
+10x chromium 3' v3 sequencing,,10x Chromium 3' v2 sequencing study design,10x Chromium 3' v2 sequencing assay
+SMART-seq v4,,SMART-seq v4 study design,SMART-seq v4 assay
+patch seq,,patch-seq study design,patch-seq assay
+10x chromium 3' v2 sequencing,,10x Chromium 3' v3 sequencing study design,10x Chromium 3' v3 sequencing assay
+MRI,MRI Assay (NIF),,nuclear magnetic resonance 3D structure determination assay
+multi electrode extracellular electrophysiology technique,,,multi-electrode extracellular electrophysiology assay
+calcium imaging,,,calcium imaging assay 
+STPT,,STPT study design,STPT assay
+retrograde tracing,,retrograde tracing study design,retrograde tracing assay
+TRIO tracing,,TRIO tracing study design,TRIO tracing assay
+ATAC-seq,,ATAC-seq study design,ATAC-seq assay
+mC-seq2,,mC-seq2 study design,mC-seq2 assay
+retrograde transsynaptic tracing,,retrograde transsynaptic tracing study design,retrograde transsynaptic tracing assay
+FISH,,FISH study design,FISH assay
+Drop-seq,,drop-seq study design,drop-seq assay
+MORF genetic sparse labeling,,MORF genetic sparse labeling study design,MORF genetic sparse labeling assay
+fMOST,,fMOST study design,fMOST assay
+mouselight,,mouselight study design,mouselight assay
+MERFISH,,MERFISH study design,MERFISH assay
+SNARE-seq,,SNARE-seq study design,SNARE-seq assay
+DNAseq,,DNA sequencing assay (OBI:0000626),DNA sequencing assay (OBI:0000626)
+OCT,,,optical coherence tomography assay
+VISor,,,volumetric imaging with synchronized on-the-fly-scan and readout assay
+light sheet microscopy,,,light sheet microsopy asasy
+scRNA-seq,single-cell RNA sequencing assay (OBI:0002112),,single-cell RNA sequencing assay (OBI:0002112)
+spike sorting technique,,,
+signal filtering technique,,,			
+surgical technique,,,
+two-photon microscopy technique,,,
+behavioral technique,,,
+analytical technique,,,
+photographic technique,,,
+fourier analysis technique,,,
