@@ -1,0 +1,30 @@
+module,neurodata_type,method term,modality term
+ecephys,ElectricalSeries,multi electrode extracellular electrophysiology recording technique,electrophysiology
+ecephys,SpikeEventSeries,spike sorting technique,electrophysiology
+ecephys,FeatureExtraction,spike sorting technique,electrophysiology
+ecephys,LFP,signal filtering technique,electrophysiology
+ecephys,EventWaveform,spike sorting technique,electrophysiology
+ecephys,EventDetection,spike sorting technique,electrophysiology
+ecephys,ElectrodeGroup,surgical technique,electrophysiology
+icephys,PatchClampSeries,patch clamp technique,electrophysiology
+icephys,CurrentClampSeries,current clamp technique,electrophysiology
+icephys,CurrentClampStimulusSeries,current clamp technique,electrophysiology
+icephys,VoltageClampSeries,voltage clamp technique,electrophysiology
+icephys,VoltageClampStimulusSeries,voltage clamp technique,electrophysiology
+ophys,TwoPhotonSeries,two-photon microscopy technique,microscopy
+ophys,OpticalChannel,surgical technique,microscopy
+ophys,ImagingPlane,,microscopy
+ophys,PlaneSegmentation,,microscopy
+behavior,Position	behavioral,technique,behavioral approach
+behavior,SpatialSeries,behavioral technique,behavioral approach
+behavior,BehavioralEpochs,behavioral technique,behavioral approach
+behavior,BehavioralEvents,behavioral technique,behavioral approach
+behavior,BehavioralTimeSeries,behavioral technique,behavioral approach
+behavior,PupilTracking,behavioral technique,behavioral approach
+behavior,EyeTracking,behavioral technique,behavioral approach
+behavior,CompassDirection,behavioral technique,behavioral approach
+base,ProcessingModule,analytical technique,	
+image,RGBImage,photographic technique,,
+misc,DecompositionSeries,fourier analysis technique,	
+misc,Units,spike sorting technique,electrophysiology
+ndx-spectrum,Spectrum,fourier analysis technique,	
