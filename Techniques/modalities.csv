@@ -1,24 +1,24 @@
 Term, parent class, SPARC def., proposed def.
-anatomy, modality (assay), Study that aims to understand the structure of organisms or their parts. 
-behavioral, modality (assay), Study that induces and/or measures the behavior of the subject.
-expression, modality (assay), Study that measures or visualizes gene or protein expression within cells or tissues. Focuses on the gene.
-genomics, modality (assay), Study that measures aspects related to the complete DNA genemone of an organsim.
-cell culture, modality (assay), Study that employs cells isolated from the organism or tissue that are kept alive and studied in vitro.
-histology, modality (assay), Study that investigates the microscopic structure of tissues.
-morphology, modality (assay), Study designed to determine the shape and structure of tissues and body parts.
-cell morphology, modality (assay), Study that specifically seeks to understand the shape and structure of individual cells. 
-transcriptomics, modality (assay), Study that measures RNA transcription in the organism or cell population of interest.
-electrophysiology, modality (assay), Study that measures electrical impulses within an organism, cell or tissue or the effects of direct electrical stimulation.
-cell population characterization, modality (assay), Study that measures biochemical, molecular and/or physiological characteristics of populations of cells as opposed to individual cells.
-radiology, modality (assay), Study that uses at least one of a varity of minimally invasive probes such as x-rays, ultrasound, or nuclear magnetic resonance signals to capture data about the internal structure of intact subjects.
-microscopy, modality (assay), Study that primarily uses light or electron microscopic imaging.
-physiology, modality (assay), Study that measures the function or behavior of organs and tissues in living systems.
-multimodal, modality (assay), Study that employs multiple modalities in signifcant ways.
-optical, modality (assay), Study that makes measurements using photons in the visible spectrum.
-cell counting, modality (assay), Study that is designed to quantify cell populations.
-connectivity, modality (assay), Study that maps or measures functional and/or anatomical connections between nerve cells and their targets or connections between populations of neurons in defined anatomical regions.
-spatial transcriptomics, modality (assay), Study used to spatially resolve RNA-seq data, and thereby all mRNAs, in individual tissue sections (Wikipedia).
-expression characterization, modality (assay), Study that charachterizes the cellular, anatomical, or morphological distribution of gene expression. Focuses on population.
-epigenomics, modality (assay), Study that measures modifications of genetic material that affect transcription but do not alter the organism's DNA.
-models, modality (assay), Study that creates or charachterizes computational models or simulations of other experimentally observed phenomena.
-population imgaging, modality (assay), 
+anatomy, modality (assay), Study that aims to understand the structure of organisms or their parts.,
+behavioral, modality (assay), Study that induces and/or measures the behavior of the subject.,
+expression, modality (assay), Study that measures or visualizes gene or protein expression within cells or tissues. Focuses on the gene.,
+genomics, modality (assay), Study that measures aspects related to the complete DNA genemone of an organism.,
+cell culture, modality (assay), Study that employs cells isolated from the organism or tissue that are kept alive and studied in vitro.,
+histology, modality (assay), Study that investigates the microscopic structure of tissues.,
+morphology, modality (assay), Study designed to determine the shape and structure of tissues and body parts.,
+cell morphology, modality (assay), Study that specifically seeks to understand the shape and structure of individual cells., 
+transcriptomics, modality (assay), Study that measures RNA transcription in the organism or cell population of interest.,
+electrophysiology, modality (assay), Study that measures electrical impulses within an organism, cell or tissue or the effects of direct electrical stimulation.,
+cell population characterization, modality (assay), Study that measures biochemical, molecular and/or physiological characteristics of populations of cells as opposed to individual cells.,
+radiology, modality (assay), Study that uses at least one of a varity of minimally invasive probes such as x-rays, ultrasound, or nuclear magnetic resonance signals to capture data about the internal structure of intact subjects.,
+microscopy, modality (assay), Study that primarily uses light or electron microscopic imaging.,
+physiology, modality (assay), Study that measures the function or behavior of organs and tissues in living systems.,
+multimodal, modality (assay), Study that employs multiple modalities in signifcant ways.,
+optical, modality (assay), Study that makes measurements using photons in the visible spectrum.,
+cell counting, modality (assay), Study that is designed to quantify cell populations.,
+connectivity, modality (assay), Study that maps or measures functional and/or anatomical connections between nerve cells and their targets or connections between populations of neurons in defined anatomical regions.,
+spatial transcriptomics, modality (assay), Study used to spatially resolve RNA-seq data, and thereby all mRNAs, in individual tissue sections (Wikipedia).,
+expression characterization, modality (assay), Study that charachterizes the cellular, anatomical, or morphological distribution of gene expression. Focuses on population.,
+epigenomics, modality (assay), Study that measures modifications of genetic material that affect transcription but do not alter the organism's DNA.,
+models, modality (assay), Study that creates or charachterizes computational models or simulations of other experimentally observed phenomena.,
+population imgaging, modality (assay), ,
