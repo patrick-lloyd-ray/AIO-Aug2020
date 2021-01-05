@@ -30,10 +30,10 @@ Spatial Ontology (NWB), including projections.
 
 Extension of Gene Ontology (TBD)
 
+Techniques and Methodologies Ontology (TBD)
+
 ## Other Work To-Do [draft]
 
 Mapping Allen brain regions to Uberon
 
 Functional properties of neurons needed (other than neurotransmitter, inhibitory, excitatory, etc.)
-
-Techniques and methodologies to link data
