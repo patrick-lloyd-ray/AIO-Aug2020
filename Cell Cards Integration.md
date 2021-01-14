@@ -6,23 +6,23 @@ The Cell Cards Application Ontology (CCAO) is an ontology made for supporting th
 
 Cell Ontology (CL)
 
-Neuron Phenotype Ontology (NPO) [https://raw.githubusercontent.com/SciCrunch/NIF-Ontology/neurons/ttl/npo.ttl]
+Neuron Phenotype Ontology [NPO](https://raw.githubusercontent.com/SciCrunch/NIF-Ontology/neurons/ttl/npo.ttl)
 
-Uber Anatomy Ontology (UBERON) [https://github.com/obophenotype/uberon]
+Uber Anatomy Ontology [UBERON](https://github.com/obophenotype/uberon)
 
-Allen Atlas Ontologies (ALLEN) [http://help.brain-map.org/display/api/Atlas+Drawings+and+Ontologies]
+Allen Atlas Ontologies [ALLEN](http://help.brain-map.org/display/api/Atlas+Drawings+and+Ontologies)
 
-Relation Ontology (RO) [https://github.com/oborel/obo-relations/]
+Relation Ontology [RO](https://github.com/oborel/obo-relations/)
 
-Phenotypic Quality Ontology (PATO) [https://github.com/pato-ontology/pato/]
+Phenotypic Quality Ontology [PATO](https://github.com/pato-ontology/pato/)
 
-Basic Formal Ontology (BFO) [https://github.com/BFO-ontology/BFO]
+Basic Formal Ontology [BFO](https://github.com/BFO-ontology/BFO)
 
-Ontology for Biomedical Investigations (OBI) [https://github.com/obi-ontology/obi]
+Ontology for Biomedical Investigations [OBI](https://github.com/obi-ontology/obi)
 
 ## Ontologies Needed [draft]
 
-Electrophysiological Ontology (In development with Tom G.)
+Electrophysiological Ontology [HERE](https://github.com/BICCN/EStimOntology)
 
 Transcriptomic Ontology (TBD)
 
@@ -30,7 +30,7 @@ Spatial Ontology (NWB), including projections.
 
 Extension of Gene Ontology (TBD)
 
-Techniques and Methodologies Ontology (TBD)
+Techniques and Methodologies Ontology [HERE](https://github.com/patrick-lloyd-ray/Techniques-Ontology)
 
 ## Other Work To-Do [draft]
 
