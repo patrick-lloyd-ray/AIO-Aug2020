@@ -72,7 +72,7 @@ These are the steps with their CLI commands. When using a GUI application the st
 Your Pull Request will be automatically tested. If there are problems, we will update your branch. When all tests have passed, your PR can be merged into `master`. Rinse and repeat!
 
 
-## Keeping Things Tidy
+## Things next to Godliness
 
 The easiest way to edit our `src/ontology/template/` files is with Excel. Unfortunately Excel has some idiosyncratic rules for quoting cell values, and on macOS [uses old line endings](http://developmentality.wordpress.com/2010/12/06/excel-2008-for-macs-csv-bug/). Both these things make our diffs messy and confusing.
 
