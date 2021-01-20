@@ -1,6 +1,20 @@
 # Editing the Ontology
 
-For editing AIO, it is recommended that you use Protege. As of December 2020, the development team uses Protege 5.5.0. To download Protege, visit [protege.stanford.edu]. Then unzip and move the app to your [applications] folder. Follow the instructions when prompted. 
+The main method to editing the ontology invovles thinking about the ontology in terms of three modules. The modules are roughly:
+
+1. external terms (from other ontologies): Use [OntoFox](http://ontofox.hegroup.org) for importing terms from other ontologies. Edit the corresponding [file name] file. 
+2. template terms: Use [ROBOT](http://robot.obolibrary.org/template) to convert spreadsheets to OWL. Edit the relevant [file name] file:
+  - [techniques] for techniques.
+  - [modalities] for modalities.
+  - [methods] for methods.
+  - [assays] for assays. 
+  - [devices] for devices.
+  - [tools] for tools.
+3. other terms: Edit [owlfile] in Protege.
+
+If you opt for #3, then the following remarks apply. If not, then the rest of this section is optional and you can skip to build instructions using Git and GitHub.
+
+For editing new terms AIO, it is recommended that you use Protege. As of December 2020, the development team uses Protege 5.5.0. To download Protege, visit [protege.stanford.edu]. Then unzip and move the app to your [applications] folder. Follow the instructions when prompted. 
 
 The ELK OWL reasoner is used to infer relationships and annotations derived from logical principles. If you do not have ELK installed, then use the [Check for plugins] menu to do so. 
 
